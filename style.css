@@ -5,15 +5,25 @@ body {
 h1 {
   font-size: 50px;
 }
+h2 {
+  font-size: 30px;
+}
 .orange-color {
   color: orangered;
 }
-section {
+.flex-container {
   display: flex;
 }
 .half-width {
   width: 50%;
   padding-left: 5%;
+}
+.third-width {
+  width: 50%;
+  margin-left: 1%;
+  margin-right: 1%;
+  padding-left: 20px;
+  box-shadow: 10px 10px 50px grey;
 }
 .half-width img {
   width: 80%;
@@ -30,10 +40,38 @@ section {
 .top-banner {
   background-image: url(images/top-banner.png);
   background-repeat: no-repeat;
+  padding-bottom: 100px;
 }
 .second-banner {
-  padding-top: 100px;
   background-image: url(images/dream-bg.png);
   background-repeat: no-repeat;
   background-position: right;
+  padding-bottom: 100px;
+}
+.third-banner {
+  padding-bottom: 100px;
+  background-image: url(images/exp-bg.png);
+  background-position: left;
+  background-repeat: no-repeat;
+}
+footer p {
+  text-align: center;
+}
+#baby-dev {
+  border-image: linear-gradient(#f6b73c, #db4d0f);
+  border-image-slice: 1;
+  border-radius: 20px;
+  border-left: 5px solid;
+}
+#semi-dev {
+  border-image: linear-gradient(#0fd5db, #c00fdb);
+  border-image-slice: 1;
+  border-radius: 20px;
+  border-left: 5px solid;
+}
+#pro-dev {
+  border-image: linear-gradient(#db0f0f, #db380f);
+  border-image-slice: 1;
+  border-radius: 20px;
+  border-left: 5px solid;
 }
